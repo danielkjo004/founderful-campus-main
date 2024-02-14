@@ -1,0 +1,33 @@
+/*--------------------------------------------------
+      01. Fonts
+---------------------------------------------------*/
+
+@font-face {
+    font-family: 'Denim-Regular';
+    src: url('../fonts/Denim-Regular.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Denim-Medium';
+    src: url('../fonts/Denim-Medium.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Denim-SemiBold';
+    src: url('../fonts/Denim-SemiBold.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'GT-Walsheim-LC-Regular';
+    src: url('../fonts/GT-Walsheim-LC-Regular.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'GT-Walsheim-LC-Thin';
+    src: url('../fonts/GT-Walsheim-LC-Thin.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'NB-Akademie-Mono';
+    src: url('../fonts/NB-Akademie-Mono-STD-Regular.ttf') format('ttf');
+}
