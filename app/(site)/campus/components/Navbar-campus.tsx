@@ -90,7 +90,7 @@ export default function Navbar() {
                 initial={{ translateY: 0 }}
                 // animate={controls}
                 transition={{ bounce: 0, delay: 1 }}>
-                <div className={`flex  justify-end relative flex-row mt-[3%] mr-10 ${isScrolled ? '-translate-x-4' : ''} transition-all ease-in-out duration-700 `} >
+                <div className={`flex justify-end relative flex-row mt-[3%] mr-10 ${isScrolled ? '-translate-x-4' : ''} transition-all ease-in-out duration-700 `} >
                     <Animation animChild="initial-slide-y-minus-5 slide-y-0 delay-0.1">
                         <div className={`flex flex-col transition-all ease-in-out duration-700 mr-10 `}>
                             <Link href={"/tech"} className={path == "/tech" ? "nav-link mb-1 active" : "nav-link mb-1"} scroll={true}>Enter our tech ecosystem</Link>

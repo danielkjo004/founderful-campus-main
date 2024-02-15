@@ -24,9 +24,9 @@ export default function Header() {
                 </motion.div>
 
                 <motion.div initial={{ opacity: 0, translateY: 100 }} animate={{ opacity: 1, translateY: 0 }} transition={{ delay: .0, ease: [0, .5, .5, 1], duration: 1 }}
-                    className="max-w-[60%] xl:left-10 xl:top-36 lg:top-[28rem] left-5 top-24 absolute block lg:hidden z-10">
+                    className="max-w-[60%] left-1/3 top-24 absolute block lg:hidden z-10">
                     <Parallax offsetMultiplier={0.1} className="max-w-[60%] md:max-w-[50%] sm:max-w-[40%]">
-                        <Image src={campus_header_1_mobile} alt="campus picture" width={425} className=""></Image>
+                        <Image src={campus_header_1_mobile} alt="campus picture" width={475} className=""></Image>
                     </Parallax>
                 </motion.div>
 

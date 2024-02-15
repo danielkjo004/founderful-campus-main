@@ -43,6 +43,8 @@ export default function Companies() {
         return () => {
             window.removeEventListener('resize', handleWindowResize);
             window.removeEventListener('load', handleWindowResize);
+            lenis.stop();
+            lenis.destroy();
         };
     }, []);
 

@@ -27,9 +27,7 @@ export default function CampusPartners() {
     return (
 
         <div className="bg-[#fff] md:pl-0 flex lg:flex-row flex-col text-[#000] h-fit w-screen pt-36 lg:flex lg:pb-10 pb-20 z-10 ">
-
             <div className="flex lg:w-[15vw] lg:ml-0 lg:mb-0 mb-20 mr-10 ml-5">
-
                 <h3 className="sticky-title lg:sticky text-[#000]">Our campus family</h3>
             </div>
             <div className="flex flex-col w-full">

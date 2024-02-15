@@ -2815,3 +2815,21 @@ footer .nav-link {
 	overflow: hidden;
 	border-top: none;
 }
+
+/* testing */
+
+.test-image-header {
+	width: calc(100vw/3);
+}
+
+@media (min-width:768px) {
+	.test-image-header {
+		width: calc(100vw/5);
+	}
+}
+
+@media (min-width:1280px) {
+	.test-image-header {
+		width: calc(100vw/6);
+	}
+}

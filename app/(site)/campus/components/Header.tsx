@@ -20,11 +20,11 @@ export default function Header() {
     return (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0, ease: [0, 0.55, 0.45, 1], duration: 1 }}
             className="lg:flex lg:flex-row
-             lg:pb-14 lg:pt-56 pt-[12rem] px-5 
+             lg:pb-14 lg:pt-46 pt-[12rem] px-5 
              bg-[#F7F14E] flex-col justify-between xl:order-last order-first w-screen h-fit xl:h-fit relative">
             <div className="flex-col lg:mt-0 lg:px-0 ml-0 w-full h-fit">
-                <WhileInView animChild="initial-slide-y-15 slide-y-0 delay-0.5" className="flex w-full relative z-30 mb-32 xl:h-[5em] xl:mb-56 2xl:h-[40vh] ">
-                    <Parallax offsetMultiplier={0.1} className="w-full mx-auto justify-center relative flex xl:mt-40 mt-[4.1rem] h-full items-center z-10">
+                <WhileInView animChild="initial-slide-y-15 slide-y-0 delay-0.5" className="flex w-full relative z-30 mb-32 xl:h-[5em] xl:mb-10 2xl:h-[40vh] ">
+                    <Parallax offsetMultiplier={0.1} className="w-full mx-auto justify-center relative flex xl:mt-10 mt-[4.1rem] h-full items-center z-10">
                         <Image src={campus} alt="Logo" width={1267} className="logo-image" />
                     </Parallax>
                 </WhileInView>
@@ -32,21 +32,21 @@ export default function Header() {
                 <motion.div initial={{ opacity: 0, translateY: 100 }} animate={{ opacity: 1, translateY: 0 }} transition={{ delay: .5, ease: [0, .5, .5, 1], duration: 1 }}
                     className=" xl:top-64 lg:left-20 lg:top-[28rem] left-20 top-96 absolute">
                     <Parallax offsetMultiplier={0.1} className="md:header-image !max-w-[35%]">
-                        <Image src={campus_header_1} alt="campus picture" width={250} className=""></Image>
+                        <Image src={campus_header_1} alt="campus picture" width={570} className=""></Image>
                     </Parallax>
                 </motion.div>
 
                 <motion.div initial={{ opacity: 0, translateY: 100 }} animate={{ opacity: 1, translateY: 0 }} transition={{ delay: .7, ease: [0, .5, .5, 1], duration: 1 }}
                     className="xl:left-[35%] xl:top-5 lg:top-40 left-3 top-32 absolute">
                     <Parallax offsetMultiplier={0.1} className="md:header-image !max-w-[40%]">
-                        <Image src={campus_header_2} alt="campus picture " width={250} className=""></Image>
+                        <Image src={campus_header_2} alt="campus picture " width={570} className=""></Image>
                     </Parallax>
                 </motion.div>
 
                 <motion.div initial={{ opacity: 0, translateY: 100 }} animate={{ opacity: 1, translateY: 0 }} transition={{ delay: .3, ease: [0, .5, .5, 1], duration: 1 }}
                     className="flex justify-end right-0 xl:top-48 lg:top-32 top-16 absolute ">
                     <Parallax offsetMultiplier={0.1} className="md:header-image !max-w-[55%]">
-                        <Image src={campus_header_3} alt="campus picture" width={432} ></Image>
+                        <Image src={campus_header_3} alt="campus picture" width={732} ></Image>
                     </Parallax>
                 </motion.div>
 
